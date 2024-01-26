@@ -54,6 +54,10 @@
     }
   }
   
+  .cus-section{
+    width: 900px;
+    /* height: 400px; */
+  }
 
 @media screen and (max-width:600px) {
     .customize-img{
@@ -76,4 +80,8 @@
     .dropdown{
         display: none;
     }
+    .cus-section{
+        width: 100%;
+        height: 600px;
+      }
 }
