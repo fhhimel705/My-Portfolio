@@ -1,0 +1,41 @@
+.customize-img{
+    width: 350px;
+}
+.customize-div-img{
+    width: 370px;
+    height: 370px;
+}
+.customize-p{
+    width: 700px;
+}
+.section-width{
+    width: 1300px;
+}
+.customized-box:hover{
+    transform: rotate(360deg);
+    transition: transform 1s ease-in-out .5s;
+    background-color: rgb(234, 211, 211);
+}
+
+@media screen and (max-width:600px) {
+    .customize-img{
+        width: 170px;
+        margin: 0 auto;
+        
+    }
+    .customize-div-img{
+        width: 180px;
+        height: 180px;
+
+        
+    }
+    .customize-p{
+        width: 100%;
+    }
+    .section-width{
+        width: 90%;
+    } 
+    .dropdown{
+        display: none;
+    }
+}
