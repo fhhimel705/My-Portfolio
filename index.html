@@ -110,24 +110,28 @@
                             class="fa-regular fa-circle-down"></i><a href="cv/Europass.pdf" download="Europass.pdf">
                             Download
                             CV</a></button>
-                    <button onclick="my_modal_3.showModal()" class="font-bold bg-sky-300 px-5 py-2 rounded-lg"><i
+                    <button onclick="my_modal_5.showModal()" class="font-bold bg-sky-300 px-5 py-2 rounded-lg"><i
                             class="fa-regular fa-address-book"></i> Contact</button>
                     <!-- ------------modal----------------- -->
-                    <dialog id="my_modal_3" class="modal">
+                    <!-- Open the modal using ID.showModal() method -->
+
+                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box">
-                            <form method="dialog">
-                                <button
-                                    class="bg-sky-600 p-2 rounded-full px-3 text-white font-bold text-xl absolute right-3 top-3">✕</button>
-                            </form>
                             <h3 class="font-bold text-lg">You can contact me through my mail or my phone number!</h3>
                             <p class="py-4 font-semibold text-slate-700"><span
                                     class="text-black text-xl font-semibold">Mali :</span> himelforkanulhoque@gmail.com
                             </p>
                             <p class="font-semibold text-slate-700"><span
                                     class="text-black text-xl font-semibold">Number :</span> +8801638618836</p>
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="bg-sky-600 p-2 rounded-xl px-3 text-white font-semibold text-xl  ">Close</button>
+                                </form>
+                            </div>
                         </div>
                     </dialog>
-
                 </div>
             </div>
         </section>
@@ -173,55 +177,57 @@
             </section>
             <section class="grid md:grid-cols-4  my-3 gap-14 md:gap-10">
                 <div class="  customized-box relative p-7 py-10 rounded-lg cart cart01">
-                    
-                        <p
-                            class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full   bg-white">
-                            <img src="icons/html.png" class="w-12 h-12" alt="">
-                        </p>
 
-                        <h5 class="text-2xl font-semibold my-5">Html</h5>
-                        <p class="text-lg text-slate-600">I am skilled in HTML, including HTML5, and have extensive
-                            experience working on numerous projects involving HTML and CSS.</p>
+                    <p class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full   bg-white">
+                        <img src="icons/html.png" class="w-12 h-12" alt="">
+                    </p>
 
-                    </div>
+                    <h5 class="text-2xl font-semibold my-5">Html</h5>
+                    <p class="text-lg text-slate-600">I am skilled in HTML, including HTML5, and have extensive
+                        experience working on numerous projects involving HTML and CSS.</p>
 
-                
+                </div>
+
+
                 <div class="  customized-box relative  p-7 py-10 rounded-lg cart cart02">
 
                     <p class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full   bg-white">
-                    <img src="icons/css.png" class="w-12 h-12" alt="">
+                        <img src="icons/css.png" class="w-12 h-12" alt="">
                     </p>
 
                     <h5 class="text-2xl font-semibold my-5">CSS</h5>
                     <p class="text-lg text-slate-600">Using CSS using frameworks like
-                        Bootstrap, Tailwind, and DaisyUI is my expertise. I feel very confident and at ease when working with Tailwind
+                        Bootstrap, Tailwind, and DaisyUI is my expertise. I feel very confident and at ease when working
+                        with Tailwind
                         and Bootstrap.</p>
 
                 </div>
                 <div class="  customized-box relative p-7 py-10 rounded-lg cart cart03">
-                    
-                        <p
-                            class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full bg-white">
-                            <img src="icons/js.png" class="w-12 h-12" alt=""></p>
 
-                        <h5 class="text-2xl font-semibold my-5">JavaScript</h5>
-                        <p class="text-lg text-slate-600">Out of all the programming languages such as C, C++, Python, and JavaScript, my prefersky one is JavaScript.</p>
+                    <p class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full bg-white">
+                        <img src="icons/js.png" class="w-12 h-12" alt="">
+                    </p>
 
-                    
+                    <h5 class="text-2xl font-semibold my-5">JavaScript</h5>
+                    <p class="text-lg text-slate-600">Out of all the programming languages such as C, C++, Python, and
+                        JavaScript, my prefersky one is JavaScript.</p>
+
+
 
                 </div>
                 <div class="  customized-box relative p-7 py-10 rounded-lg cart cart04 ">
-                    
-                        <p
-                            class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full   bg-white">
-                            <img src="icons/react.png" class="w-12 h-12" alt=""></p>
 
-                        <h5 class="text-2xl font-semibold my-5">React</h5>
-                        <p class="text-lg text-slate-600">For advanced animation and enhanced website performance, React stands as unparalleled.</p>
+                    <p class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full   bg-white">
+                        <img src="icons/react.png" class="w-12 h-12" alt="">
+                    </p>
 
-                    </div>
+                    <h5 class="text-2xl font-semibold my-5">React</h5>
+                    <p class="text-lg text-slate-600">For advanced animation and enhanced website performance, React
+                        stands as unparalleled.</p>
 
-                
+                </div>
+
+
 
             </section>
         </section>
@@ -245,7 +251,8 @@
                         </div>
                         <div class="collapse-content">
                             <h5 class="text-xl my-4 font-semibold text-slate-700">MONIPUR HIGH SCHOOL / 2008 - 2018</h5>
-                            <p class="font-semibold text-slate-600">I finished my Secondary School Certificate (SSC) from a prestigious school in my country, achieving a perfect GPA of 5.</p>
+                            <p class="font-semibold text-slate-600">I finished my Secondary School Certificate (SSC)
+                                from a prestigious school in my country, achieving a perfect GPA of 5.</p>
                         </div>
                     </div>
                     <div class="collapse collapse-arrow bg-base-200 my-7">
@@ -258,7 +265,8 @@
                             <h5 class="text-xl my-4 font-semibold text-slate-700">MIRPUR CANTONMENT PUBLIC SCHOOL AND
                                 COLLEGE / 2018 - 2020</h5>
                             <p class="font-semibold text-slate-600">I attended the MIRPUR CANTONMENT PUBLIC SCHOOL AND
-                                COLLEGE affiliated with the Bangladesh Army for my intermediate studies. I attained a perfect GPA of 5 in my Higher Secondary Certificate (HSC) exams.</p>
+                                COLLEGE affiliated with the Bangladesh Army for my intermediate studies. I attained a
+                                perfect GPA of 5 in my Higher Secondary Certificate (HSC) exams.</p>
                         </div>
                     </div>
                     <div class="collapse collapse-arrow bg-base-200 my-7">
@@ -270,7 +278,8 @@
                         <div class="collapse-content">
                             <h5 class="text-xl my-4 font-semibold text-slate-700">BANGLADESH UNIVERSITY OF BUSINESS AND
                                 TECHNOLOGY / 2021 - Current</h5>
-                            <p class="font-semibold text-slate-600">I am presently enrolled at BUBT in the Department of Computer Science and Engineering, pursuing my undergraduate studies.</p>
+                            <p class="font-semibold text-slate-600">I am presently enrolled at BUBT in the Department of
+                                Computer Science and Engineering, pursuing my undergraduate studies.</p>
                         </div>
                     </div>
                     <!-- --------------------------
@@ -285,7 +294,8 @@
                         </div>
                         <div class="collapse-content">
                             <h5 class="text-xl my-4 font-semibold text-slate-700">Acme AI Ltd. / 2023</h5>
-                            <p class="font-semibold text-slate-600">I served as an annotator in the production house at company named Acme AI Ltd.</p>
+                            <p class="font-semibold text-slate-600">I served as an annotator in the production house at
+                                company named Acme AI Ltd.</p>
                         </div>
                     </div>
 
@@ -303,7 +313,8 @@
                             </div>
                             <div class="collapse-content">
                                 <h5 class="text-xl my-4 font-semibold text-slate-700">Youth Worth/ 2019 - Current</h5>
-                                <p class="font-semibold text-slate-600">I served my share of service as a volunteer for my city and people and i still offer service to my people.</p>
+                                <p class="font-semibold text-slate-600">I served my share of service as a volunteer for
+                                    my city and people and i still offer service to my people.</p>
                             </div>
                         </div>
 
@@ -317,7 +328,9 @@
                             <div class="collapse-content">
                                 <h5 class="text-xl my-4 font-semibold text-slate-700">Inter House Annual Sports-2019
                                 </h5>
-                                <p class="font-semibold text-slate-600">Our college hosts an inter-house annual sports event every two years, including a parade to welcome our college chief. I took part in that parade.</p>
+                                <p class="font-semibold text-slate-600">Our college hosts an inter-house annual sports
+                                    event every two years, including a parade to welcome our college chief. I took part
+                                    in that parade.</p>
                             </div>
                         </div>
                     </div>
